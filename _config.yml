@@ -1,0 +1,17 @@
+# Site settings
+title: Denis V. Rotanov
+email: mapholameth@gmail.com
+description: >
+  The Personal Site of Denis Rotanov | Software Developer &amp; Artist
+baseurl: ""
+url: "http://rotanov.com" # the base hostname & protocol for your site
+
+disqus_shortname: rotanov
+
+twitter_username: iiSatana
+github_username:  rotanov
+
+markdown: kramdown
+highlighter: rouge
+paginate: 8
+paginate_path: "blog/page:num/"

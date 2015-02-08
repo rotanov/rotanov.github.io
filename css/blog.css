@@ -38,6 +38,11 @@ h3 {
     color: #fff;
 }
 
+.brand-pic {
+    border-radius: 50px;
+    margin-left: 1em;
+}
+
 .brand-title,
 .brand-tagline {
     margin: 0;
@@ -102,10 +107,10 @@ h3 {
     float: right;
     margin-left: 1em;
 }
+.post-content,
 .post-description {
     font-family: Georgia, "Cambria", serif;
     color: #444;
-    line-height: 1.8em;
 }
 .post-meta {
     color: #999;
@@ -172,4 +177,16 @@ h3 {
         top: 0;
         bottom: 0;
     }
+}
+
+blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd
+}
+blockquote>:first-child {
+  margin-top: 0
+}
+blockquote>:last-child {
+  margin-bottom: 0
 }
