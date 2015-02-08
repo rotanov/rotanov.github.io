@@ -68,7 +68,8 @@
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .w { color: #f8f8f2 } /* Text.Whitespace */
 
-.gl {
+.gl,
+.lineno {
   background: #282828;
   border-right: 1px solid #aaa;
   color: #999;
