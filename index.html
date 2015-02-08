@@ -22,7 +22,8 @@ layout: default
   </header>
 
   <div class="post-description">
-    {{ post.excerpt }}
+    <!-- {{ post.excerpt }} not supported by github pages version of jekyll -->
+    {{ post.content | split:'<!--break-->' | first }}
     <a href="{{ post.url }}">...&raquo;</a>
   </div>
 </li>

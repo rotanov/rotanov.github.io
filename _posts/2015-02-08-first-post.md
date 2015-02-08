@@ -7,6 +7,8 @@ categories: jekyll blog post code
 
 First post. It's here as a placeholder for me to play around with jekyll and it's markdown handling. Using `linenos` attribute in `highlight` tag somehow makes everything after `highlight` to become included in `<pre>` tag.
 
+<!--break-->
+
 I also would like to use <br />
 
 \`\`\` js <br />
