@@ -109,7 +109,7 @@ h3 {
 }
 .post-content,
 .post-description {
-    font-family: Georgia, "Cambria", serif;
+    font-family: "Lora", Georgia, "Cambria", serif;
     color: #444;
 }
 .post-meta {
@@ -189,4 +189,7 @@ blockquote>:first-child {
 }
 blockquote>:last-child {
   margin-bottom: 0
+}
+.pure-g [class*="pure-u"] {
+    font-family: "Open Sans", sans-serif;
 }
